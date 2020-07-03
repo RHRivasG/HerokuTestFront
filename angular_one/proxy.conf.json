@@ -6,7 +6,11 @@
 	"pathRewrite": {
 	    "^/api": "/greet_api"
 	}
+    },
+    "/flutter_one": {
+	"target": "http://localhost:8080/flutter_one",
+	"secure": false,
+	"logLevel": "debug"
     }
-    
 
 }

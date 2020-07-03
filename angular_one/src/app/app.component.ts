@@ -8,23 +8,26 @@ import { LoqueseaService } from "./loquesea.service";
     styleUrls: ["./app.component.css"],
 })
 export class AppComponent implements OnInit {
-    title = "example";
-    loquesea: Loquesea[] = [];
-    constructor(private loqueseaService: LoqueseaService) { }
+  title = "example";
+  loquesea: Loquesea[] = [];
+  constructor(private loqueseaService: LoqueseaService) {
+  }
 
-    ngOnInit(): void {
-        this.getLoquesea();
-    }
+  ngOnInit(): void {
+    this.getLoquesea();
+  }
 
-    getLoquesea() {
-        this.loqueseaService.getLoquesea().subscribe(
-            (res) => {
-                this.loquesea = res
-                window.alert(res.values)
-            },
-            (err) => {
-                console.log(err)
-            }
-        );
-    }
+  getLoquesea() {
+    this.loqueseaService
+      .getLoquesea()
+      .subscribe(
+        (res) => {
+          this.loquesea = res
+          window.alert(res.values)
+        },
+        (err) => {
+          console.log(err)
+        }
+    );
+  }
 }
