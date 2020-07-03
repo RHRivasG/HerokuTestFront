@@ -1,0 +1,84 @@
+Info 0    [18:12:36.446] Starting TS Server
+Info 1    [18:12:36.446] Version: 3.9.5
+Info 2    [18:12:36.446] Arguments: /usr/local/bin/node /usr/local/bin/tsserver --logFile /home/syfers/Documents/repos/HerokuTestFront/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/03db3548be0434f15868d3c6167fa52d/tscancellation*
+Info 3    [18:12:36.446] Platform: linux NodeVersion: 14 CaseSensitive: true
+Info 4    [18:12:36.838] Search path: /home/syfers/Documents/repos/HerokuTestFront/angular_one/src/app
+Info 5    [18:12:36.839] For info: /home/syfers/Documents/repos/HerokuTestFront/angular_one/src/app/app.component.ts :: Config file name: /home/syfers/Documents/repos/HerokuTestFront/angular_one/tsconfig.json
+Info 6    [18:12:36.839] Opened configuration file /home/syfers/Documents/repos/HerokuTestFront/angular_one/tsconfig.json
+Info 7    [18:12:36.859] Config: /home/syfers/Documents/repos/HerokuTestFront/angular_one/tsconfig.json : {
+ "rootNames": [
+  "/home/syfers/Documents/repos/HerokuTestFront/angular_one/e2e/src/app.e2e-spec.ts",
+  "/home/syfers/Documents/repos/HerokuTestFront/angular_one/e2e/src/app.po.ts",
+  "/home/syfers/Documents/repos/HerokuTestFront/angular_one/src/main.ts",
+  "/home/syfers/Documents/repos/HerokuTestFront/angular_one/src/polyfills.ts",
+  "/home/syfers/Documents/repos/HerokuTestFront/angular_one/src/test.ts",
+  "/home/syfers/Documents/repos/HerokuTestFront/angular_one/src/app/app-routing.module.ts",
+  "/home/syfers/Documents/repos/HerokuTestFront/angular_one/src/app/app.component.spec.ts",
+  "/home/syfers/Documents/repos/HerokuTestFront/angular_one/src/app/app.component.ts",
+  "/home/syfers/Documents/repos/HerokuTestFront/angular_one/src/app/app.module.ts",
+  "/home/syfers/Documents/repos/HerokuTestFront/angular_one/src/app/loquesea.service.spec.ts",
+  "/home/syfers/Documents/repos/HerokuTestFront/angular_one/src/app/loquesea.service.ts",
+  "/home/syfers/Documents/repos/HerokuTestFront/angular_one/src/app/interfaces/loquesea-interface.ts",
+  "/home/syfers/Documents/repos/HerokuTestFront/angular_one/src/environments/environment.prod.ts",
+  "/home/syfers/Documents/repos/HerokuTestFront/angular_one/src/environments/environment.ts"
+ ],
+ "options": {
+  "baseUrl": "/home/syfers/Documents/repos/HerokuTestFront/angular_one",
+  "outDir": "/home/syfers/Documents/repos/HerokuTestFront/angular_one/dist/out-tsc",
+  "sourceMap": true,
+  "declaration": false,
+  "downlevelIteration": true,
+  "experimentalDecorators": true,
+  "module": 99,
+  "moduleResolution": 2,
+  "importHelpers": true,
+  "target": 2,
+  "typeRoots": [
+   "/home/syfers/Documents/repos/HerokuTestFront/angular_one/node_modules/@types"
+  ],
+  "lib": [
+   "lib.es2018.d.ts",
+   "lib.dom.d.ts"
+  ],
+  "configFilePath": "/home/syfers/Documents/repos/HerokuTestFront/angular_one/tsconfig.json"
+ }
+}
+Info 8    [18:12:37.646] Starting updateGraphWorker: Project: /home/syfers/Documents/repos/HerokuTestFront/angular_one/tsconfig.json
+Info 9    [18:12:40.942] Finishing updateGraphWorker: Project: /home/syfers/Documents/repos/HerokuTestFront/angular_one/tsconfig.json Version: 1 structureChanged: true Elapsed: 3296ms
+Info 10   [18:12:40.942] Project '/home/syfers/Documents/repos/HerokuTestFront/angular_one/tsconfig.json' (Configured)
+Info 11   [18:12:40.942] 	Files (310)
+
+Info 12   [18:12:40.942] -----------------------------------------------
+Info 13   [18:12:41.525] Starting updateGraphWorker: Project: /home/syfers/Documents/repos/HerokuTestFront/angular_one/tsconfig.json
+Info 14   [18:12:41.540] Finishing updateGraphWorker: Project: /home/syfers/Documents/repos/HerokuTestFront/angular_one/tsconfig.json Version: 2 structureChanged: false Elapsed: 15ms
+Info 15   [18:12:41.540] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 16   [18:12:42.685] Starting updateGraphWorker: Project: /home/syfers/Documents/repos/HerokuTestFront/angular_one/tsconfig.json
+Info 17   [18:12:42.704] Finishing updateGraphWorker: Project: /home/syfers/Documents/repos/HerokuTestFront/angular_one/tsconfig.json Version: 3 structureChanged: false Elapsed: 18ms
+Info 18   [18:12:42.704] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 19   [18:12:44.19] Starting updateGraphWorker: Project: /home/syfers/Documents/repos/HerokuTestFront/angular_one/tsconfig.json
+Info 20   [18:12:44.41] Finishing updateGraphWorker: Project: /home/syfers/Documents/repos/HerokuTestFront/angular_one/tsconfig.json Version: 4 structureChanged: false Elapsed: 22ms
+Info 21   [18:12:44.41] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 22   [18:12:44.43] getCompletionData: Get current token: 0
+Info 23   [18:12:44.43] getCompletionData: Is inside comment: 0
+Info 24   [18:12:44.43] getCompletionData: Get previous token 1: 0
+Info 25   [18:12:44.44] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 26   [18:12:44.45] getCompletionData: Semantic work: 1
+Info 27   [18:12:44.47] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1
+Info 28   [18:12:45.500] Starting updateGraphWorker: Project: /home/syfers/Documents/repos/HerokuTestFront/angular_one/tsconfig.json
+Info 29   [18:12:45.514] Finishing updateGraphWorker: Project: /home/syfers/Documents/repos/HerokuTestFront/angular_one/tsconfig.json Version: 5 structureChanged: false Elapsed: 14ms
+Info 30   [18:12:45.514] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 31   [18:12:46.353] Starting updateGraphWorker: Project: /home/syfers/Documents/repos/HerokuTestFront/angular_one/tsconfig.json
+Info 32   [18:12:46.367] Finishing updateGraphWorker: Project: /home/syfers/Documents/repos/HerokuTestFront/angular_one/tsconfig.json Version: 6 structureChanged: false Elapsed: 14ms
+Info 33   [18:12:46.367] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 34   [18:12:46.394] Starting updateGraphWorker: Project: /home/syfers/Documents/repos/HerokuTestFront/angular_one/tsconfig.json
+Info 35   [18:12:46.404] Finishing updateGraphWorker: Project: /home/syfers/Documents/repos/HerokuTestFront/angular_one/tsconfig.json Version: 7 structureChanged: false Elapsed: 10ms
+Info 36   [18:12:46.404] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 37   [18:12:46.582] getCompletionData: Get current token: 0
+Info 38   [18:12:46.583] getCompletionData: Is inside comment: 1
+Info 39   [18:12:46.583] getCompletionData: Get previous token 1: 0
+Info 40   [18:12:46.583] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 41   [18:12:46.585] getCompletionData: Semantic work: 2
+Info 42   [18:12:46.585] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0
+Info 43   [18:12:48.85] Starting updateGraphWorker: Project: /home/syfers/Documents/repos/HerokuTestFront/angular_one/tsconfig.json
+Info 44   [18:12:48.102] Finishing updateGraphWorker: Project: /home/syfers/Documents/repos/HerokuTestFront/angular_one/tsconfig.json Version: 8 structureChanged: false Elapsed: 17ms
+Info 45   [18:12:48.103] Different program with same set of files:: oldProgram.structureIsReused:: 2
